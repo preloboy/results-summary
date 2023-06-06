@@ -1,0 +1,183 @@
+body {
+    height: 100vh;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container-fluid {
+    display: flex;
+    height: 100vh;
+}
+
+.card {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px hsl(241, 100%, 89%);
+}
+
+.inside1 {
+    width: 18rem;
+    /* height: 26rem; */
+    border-radius: 25px;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.card-title {
+    color: hsl(241, 100%, 89%);
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.inside2 {
+    width: 18rem;
+    /* height: 26rem; */
+    min-width: fit-content;
+}
+
+.circle {
+    width: 9rem;
+    height: 9rem;
+    margin: auto;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.circle-title h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.circle-title p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: hsl(241, 100%, 89%);
+}
+
+.circle-label {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.card-text {
+    color: hsl(241, 100%, 89%);
+    padding: 1rem;
+}
+.summery-text {
+    color: rgb(15, 15, 15);
+}
+
+.summery-text strong {
+    color: rgb(70, 67, 67);
+}
+
+.summery-item1 {
+    background: hsla(0, 100%, 67%, 10%);
+}
+
+.summery-item1 .card-text {
+    color: hsl(0, 100%, 67%);
+}
+
+.summery-item2 {
+    background: hsla(39, 100%, 56%, 10%);
+}
+
+.summery-item2 .card-text {
+    color: hsl(39, 100%, 56%);
+}
+
+.summery-item3 {
+    background: hsla(166, 100%, 37%, 10%);
+}
+
+.summery-item3 .card-text {
+    color: hsl(166, 100%, 37%);
+}
+
+.summery-item4 {
+    background: hsla(234, 85%, 45%, 10%);
+}
+
+.summery-item4 .card-text {
+    color: hsl(234, 85%, 45%);
+}
+
+@media only screen and (max-width: 375px) {
+    .container-fluid {
+        padding: 0;
+        height: fit-content;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0;
+        min-width: fit-content;
+    }
+
+    .card-title {
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .inside1 {
+        width: 100%;
+        /* height: 40%; */
+        border-radius: 0 0 25px 25px;
+        min-width: fit-content;
+    }
+
+    .circle {
+        height: 7rem;
+        width: 7rem;
+    }
+
+    .circle-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .circle-title p {
+        font-size: .8rem;
+        color: hsl(241, 100%, 89%);
+    }
+
+    .circle-label {
+        color: hsl(0, 0%, 100%);
+        font-size: 1.3rem;
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+
+    .card-text {
+        color: hsl(241, 100%, 89%);
+        font-size: .9rem;
+        padding: 0.5rem;
+    }
+
+    .inside2 {
+        /* display: block; */
+        width: 100%;
+        min-width: fit-content;
+    }
+
+    .summery-body {
+        min-width: fit-content;
+    }
+}
